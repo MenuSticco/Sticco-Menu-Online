@@ -1,4 +1,4 @@
-/* body{
+body{
     margin: 0px;
     padding: 0px;
     height: 1000px;
@@ -156,4 +156,4 @@ h2.menu:hover{
     h2.menu:hover {
         font-size: 1.6rem;
     }
-} */
+}
