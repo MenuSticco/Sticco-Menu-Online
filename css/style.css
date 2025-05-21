@@ -1,0 +1,253 @@
+body{
+    /* background-color: #1C1E48; */
+    margin: 0px;
+    padding: 0px;
+}
+
+div.container{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.course {
+    width: 50%;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    border: 10px solid #1C1E48;
+    border-style: double;
+}
+
+div.title {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+hr.title {
+    background-color: #4C4E78;
+    border: none;
+    height: 3px;
+    width: 130px;
+    margin-top: 0px;
+}
+
+hr.space {
+    margin-top: 50px;
+    width: 1200px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+h1.title {
+    color: #1C1E48;
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    margin-top: 3rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+div.list {
+    width: 100%;
+}
+
+div.plate{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+div.titlePlate {
+    display: flex;
+    justify-content: center;
+}
+
+div.pricePlate {
+    margin-left: 20px;
+}
+
+h1.titlePlate {
+    font-size: 2.5rem;
+    color:#1C1E48
+}
+
+h1.pricePlate {
+    color: #4C4E78;
+}
+
+div.ingredienti {
+    display: flex;
+    justify-content: center;
+}
+
+p.ingredienti {
+    width: 80%;
+    text-align: center; 
+    font-size: 1.5rem;
+}
+
+div.listDrink, div.listAllergeni {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.drink, div.allergene {
+    width: 30%;
+    margin-top: 15px;
+}
+
+div.titleDrink, div.immagineAllergene {
+
+    float:left
+}
+
+div.priceDrink, div.descrizioneAllergene {
+
+    float: right
+}
+
+div.descrizioneAllergene {
+    text-align: left;
+    width: 60%;
+}
+
+h1.drink, h2.allergene {
+    margin: 0px;
+    padding: 0px;
+    font-size: 2.5rem;
+    color:#1C1E48
+}
+
+h2.allergene {
+    text-align: left;
+}
+
+h2.inMenu {
+    font-size: 1.7rem;
+    margin-right: 13px;
+}
+
+h2.iconaAllergene {
+    color: #D0C0AC
+}
+
+h1.priceDrink {
+    margin: 0px;
+    padding: 0px;
+    color: #4C4E78;
+}
+
+
+/* Sidebar chiusa di default */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1C1E48;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding-top: 60px;
+    z-index: 1000;
+    /* border-right: 2px solid #1C1E48; */
+}
+
+/* Contenuto della sidebar */
+.sidebar h2, .sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    display: block;
+}
+
+/* Header della sidebar con due bottoni */
+.sidebar-header {
+    margin-top: 20px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center; /* fondamentale per allinearli */
+    padding: 0 15px;
+    height: 40px; /* imposta un'altezza uniforme */
+}
+
+
+/* Bottone home */
+.homebtn {
+    color: white;
+    font-size: 24px; /* aumentato per visibilità e allineamento */
+    text-decoration: none;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+}
+
+/* Bottone di chiusura */
+.sidebar .closebtn {
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin-left: auto;
+    padding-right: 20px;
+}
+
+
+u.menu, li.menu {
+    color: white;
+}
+
+button.openBar {
+    width: 100px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: 600; /* Più leggibile */
+    color: #1C1E48;
+    background-color: white;
+    border: 2px solid #1C1E48;
+    border-radius: 20px;
+    padding: 8px 12px;
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.1); /* Leggera ombra per stacco */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+button.openBar:hover {
+    background-color: #1C1E48;
+    color: white;
+}
+
+div.allerg {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
