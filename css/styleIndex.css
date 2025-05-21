@@ -1,5 +1,4 @@
-body{
-    /* background-color: #1C1E48; */
+/* body{
     margin: 0px;
     padding: 0px;
     height: 1000px;
@@ -31,8 +30,6 @@ div.firstSection {
     background-size: cover;         
     background-repeat: no-repeat;   
     background-position: center; 
-    /* width: 1400px;
-    height: 800px; */
     width: 100%;
     height: 100%;
 }
@@ -52,7 +49,6 @@ h1.title {
     border-radius: 10px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.6);
-    /* Optional: aggiungi ombra al testo per contrasto */
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -64,7 +60,6 @@ h2.menu {
     border-radius: 10px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.6);
-    /* Optional: aggiungi ombra al testo per contrasto */
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
     color: #4C4E78;
 }
@@ -82,7 +77,7 @@ h2.menu:hover{
     color: #1C1E48;
 }
 
-/* Per tablet e schermi fino a 1024px */
+
 @media screen and (max-width: 1024px) {
     div.course {
         width: 80%;
@@ -114,7 +109,7 @@ h2.menu:hover{
     }
 }
 
-/* Per smartphone fino a 768px */
+
 @media screen and (max-width: 768px) {
     div.container {
         flex-direction: column;
@@ -161,4 +156,4 @@ h2.menu:hover{
     h2.menu:hover {
         font-size: 1.6rem;
     }
-}
+} */
