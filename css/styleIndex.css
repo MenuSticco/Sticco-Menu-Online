@@ -79,81 +79,76 @@ h2.menu:hover{
 
 
 @media screen and (max-width: 1024px) {
-    div.course {
-        width: 80%;
-        padding-bottom: 50px;
-        margin-bottom: 50px;
-    }
-
     h1.title {
-        font-size: 2.5rem;
+        font-size: 3rem;
+        padding: 1rem;
     }
 
-    h1.titlePlate, h1.pricePlate, h1.priceDrink, h1.drink {
+    h2.menu {
+        font-size: 1.8rem;
+        padding: 0.8rem 1.5rem;
+        margin: 10px 0;
+    }
+
+    h2.menu:hover {
         font-size: 2rem;
     }
 
-    p.ingredienti {
-        font-size: 1.2rem;
-        width: 90%;
+    div.firstSection {
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
     }
 
-    div.drink, div.allergene {
-        width: 45%;
-    }
-
-    button.openBar {
-        width: 80px;
-        height: 45px;
-        font-size: 18px;
+    .menu.toCenter {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
 
 @media screen and (max-width: 768px) {
-    div.container {
+    h1.title {
+        font-size: 2.2rem;
+        padding: 0.5rem 1rem;
+    }
+
+    h2.menu {
+        font-size: 1.4rem;
+        padding: 0.5rem 1rem;
+        margin: 8px 0;
+    }
+
+    h2.menu:hover {
+        font-size: 1.5rem;
+    }
+
+    div.container,
+    div.firstSection,
+    .toCenter {
         flex-direction: column;
-        align-items: stretch;
+        align-items: center;
+        padding: 0.5rem;
     }
 
-    div.course {
-        width: 95%;
-        margin: 0 auto;
+    div.title {
+        height: auto;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
     }
 
-    h1.title, h1.titlePlate, h1.pricePlate, h1.drink, h2.allergene {
-        font-size: 1.8rem;
-        text-align: center;
-    }
-
-    p.ingredienti {
-        font-size: 1rem;
-    }
-
-    div.plate, div.listDrink, div.listAllergeni {
+    .menu.toCenter {
         flex-direction: column;
         align-items: center;
     }
 
-    div.drink, div.allergene {
-        width: 90%;
-    }
-
-    .sidebar h2, .sidebar a {
-        font-size: 1.5rem;
-    }
-
-    button.openBar {
+    a {
+        text-align: center;
         width: 100%;
-        font-size: 1.2rem;
-        margin: 10px auto;
     }
 
     h2.menu {
-        font-size: 1.5rem;
-    }
-
-    h2.menu:hover {
-        font-size: 1.6rem;
+        width: 90%;
+        text-align: center;
     }
 }
