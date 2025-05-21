@@ -251,3 +251,84 @@ div.allerg {
     justify-content: center;
     align-items: center;
 }
+
+/* Per tablet e schermi fino a 1024px */
+@media screen and (max-width: 1024px) {
+    div.course {
+        width: 80%;
+        padding-bottom: 50px;
+        margin-bottom: 50px;
+    }
+
+    h1.title {
+        font-size: 2.5rem;
+    }
+
+    h1.titlePlate, h1.pricePlate, h1.priceDrink, h1.drink {
+        font-size: 2rem;
+    }
+
+    p.ingredienti {
+        font-size: 1.2rem;
+        width: 90%;
+    }
+
+    div.drink, div.allergene {
+        width: 45%;
+    }
+
+    button.openBar {
+        width: 80px;
+        height: 45px;
+        font-size: 18px;
+    }
+}
+
+/* Per smartphone fino a 768px */
+@media screen and (max-width: 768px) {
+    div.container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    div.course {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    h1.title, h1.titlePlate, h1.pricePlate, h1.drink, h2.allergene {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    p.ingredienti {
+        font-size: 1rem;
+    }
+
+    div.plate, div.listDrink, div.listAllergeni {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.drink, div.allergene {
+        width: 90%;
+    }
+
+    .sidebar h2, .sidebar a {
+        font-size: 1.5rem;
+    }
+
+    button.openBar {
+        width: 100%;
+        font-size: 1.2rem;
+        margin: 10px auto;
+    }
+
+    h2.menu {
+        font-size: 1.5rem;
+    }
+
+    h2.menu:hover {
+        font-size: 1.6rem;
+    }
+}
