@@ -2,11 +2,6 @@ html,
 body {
     max-width: 100%;
     overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow-x: hidden; /* NASCONDE lo scroll orizzontale ovunque */
-    overflow-y: auto; /* Abilita scroll verticale */
 }
 
 * {
@@ -23,16 +18,14 @@ div.container {
 
 div.toHeight {
     height: 100%;
-    margin: 0px;
-    padding: 0px;
+
 }
 
 div.toCenter {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px;
-    margin: 0px;
+
 }
 
 div.menu.toCenter {
