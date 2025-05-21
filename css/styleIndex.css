@@ -1,10 +1,20 @@
-body{
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
     margin: 0px;
     padding: 0px;
     height: 1000px;
 }
 
-div.container{
+div.container {
     background-color: white;
     height: 100%;
     width: 100%;
@@ -27,9 +37,9 @@ div.firstSection {
     margin: 0px;
     padding: 0px;
     background-image: url("../images/sticco-mare.jpeg");
-    background-size: cover;         
-    background-repeat: no-repeat;   
-    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     height: 100%;
 }
@@ -42,7 +52,7 @@ div.title {
 
 h1.title {
     color: #1C1E48;
-    
+
     font-family: 'Poppins', Arial, sans-serif;
     font-size: 4rem;
     padding: 1rem 2rem;
@@ -65,14 +75,14 @@ h2.menu {
 }
 
 u.menu {
-    color:#4C4E78
+    color: #4C4E78
 }
 
 u.menu:hover {
     color: #1C1E48;
 }
 
-h2.menu:hover{
+h2.menu:hover {
     font-size: 2.4rem;
     color: #1C1E48;
 }
@@ -108,6 +118,13 @@ h2.menu:hover{
 
 
 @media screen and (max-width: 768px) {
+
+    .toCenter,
+    .menu.toCenter {
+        flex-wrap: wrap;
+        overflow-x: hidden;
+    }
+
     h1.title {
         font-size: 2.2rem;
         padding: 0.5rem 1rem;
