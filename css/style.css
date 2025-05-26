@@ -308,7 +308,7 @@ div.disclaimer {
 
 
 @media screen and (max-width: 768px) {
-    div.container {
+    /* div.container {
         flex-direction: column;
         align-items: stretch;
     }
@@ -352,5 +352,103 @@ div.disclaimer {
 
     h2.menu:hover {
         font-size: 1.6rem;
+    } */
+
+    /* Layout generale */
+    div.container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.course {
+        width: 95%;
+        margin: 0 auto;
+        padding-bottom: 3rem;
+    }
+
+    /* LOGO più grande e proporzionato */
+    img.logo {
+        width: 75%;
+        max-width: 300px;
+        height: auto;
+        margin-top: 3rem;
+    }
+
+    /* Titoli e testi */
+    h1.title {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    h1.titlePlate,
+    h1.pricePlate,
+    h1.priceDrink,
+    h1.drink,
+    h2.allergene {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    p.ingredienti {
+        font-size: 1.3rem;
+        width: 90%;
+        text-align: center;
+    }
+
+    /* Piatti e layout */
+    div.plate, div.listDrink, div.listAllergeni {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.drink, div.allergene {
+        width: 90%;
+    }
+
+    /* Disclaimer */
+    p.disclaimer {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    /* Sidebar potenziata */
+    .sidebar {
+        width: 85% !important; /* override del JS */
+        padding-top: 80px;
+    }
+
+    .sidebar h2,
+    .sidebar a {
+        font-size: 2rem;
+        padding: 15px 25px;
+    }
+
+    .sidebar .closebtn {
+        font-size: 2rem;
+    }
+
+    .sidebar-header {
+        height: 60px;
+    }
+
+    .homebtn {
+        font-size: 2rem;
+    }
+
+    /* Menu button più evidente */
+    button.openBar {
+        width: 90%;
+        height: 60px;
+        font-size: 1.5rem;
+        margin: 20px auto;
+        display: block;
+    }
+
+    h2.menu {
+        font-size: 1.6rem;
+    }
+
+    h2.menu:hover {
+        font-size: 1.7rem;
     }
 }
