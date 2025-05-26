@@ -8,7 +8,7 @@ body {
     box-sizing: border-box;
 }
 
-div.logo {
+/* div.logo {
     width: 25%;
     height: 25%;
     background: none;
@@ -19,7 +19,21 @@ img.logo {
     width: 100%;
     height: 100%;
     border: none;
+} */
+
+div.logo {
+    width: 25%;
+    max-width: 300px;
+    background: none;
 }
+
+img.logo {
+    margin-top: 6rem;
+    width: 100%;
+    height: auto;
+    border: none;
+}
+
 
 div.container {
     background-color: white;
@@ -141,6 +155,15 @@ h2.menu:hover {
         flex-wrap: wrap;
         justify-content: center;
     }
+
+    div.logo {
+        width: 40%;
+        max-width: 250px;
+    }
+
+    img.logo {
+        margin-top: 4rem;
+    }
 }
 
 
@@ -194,5 +217,14 @@ h2.menu:hover {
     h2.menu {
         width: 90%;
         text-align: center;
+    }
+
+    div.logo {
+        width: 60%;
+        max-width: 200px;
+    }
+
+    img.logo {
+        margin-top: 3rem;
     }
 }
