@@ -157,8 +157,8 @@ h2.menu:hover {
     }
 
     div.logo {
-        width: 40%;
-        max-width: 250px;
+        width: 45%;
+        max-width: 260px;
     }
 
     img.logo {
@@ -220,11 +220,11 @@ h2.menu:hover {
     }
 
     div.logo {
-        width: 60%;
-        max-width: 200px;
+        width: 75%;
+        max-width: 280px;
     }
 
     img.logo {
-        margin-top: 3rem;
+        margin-top: 2.5rem;
     }
 }
