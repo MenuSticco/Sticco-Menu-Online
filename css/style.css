@@ -1,9 +1,9 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
 }
 
-div.container{
+div.container {
     background-color: white;
     height: 100%;
     width: 100%;
@@ -62,7 +62,7 @@ div.list {
     width: 100%;
 }
 
-div.plate{
+div.plate {
     width: 100%;
     margin-bottom: 20px;
 }
@@ -78,7 +78,7 @@ div.pricePlate {
 
 h1.titlePlate {
     font-size: 2.5rem;
-    color:#1C1E48
+    color: #1C1E48
 }
 
 div.coperto {
@@ -86,7 +86,7 @@ div.coperto {
 }
 
 h1.titleCoperto {
-    color:#1C1E48;
+    color: #1C1E48;
     font-size: 2rem;
 }
 
@@ -101,27 +101,31 @@ div.ingredienti {
 
 p.ingredienti {
     width: 80%;
-    text-align: center; 
+    text-align: center;
     font-size: 1.5rem;
 }
 
-div.listDrink, div.listAllergeni {
+div.listDrink,
+div.listAllergeni {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-div.drink, div.allergene {
+div.drink,
+div.allergene {
     width: 30%;
     margin-top: 15px;
 }
 
-div.titleDrink, div.immagineAllergene {
+div.titleDrink,
+div.immagineAllergene {
 
-    float:left
+    float: left
 }
 
-div.priceDrink, div.descrizioneAllergene {
+div.priceDrink,
+div.descrizioneAllergene {
 
     float: right
 }
@@ -131,11 +135,12 @@ div.descrizioneAllergene {
     width: 60%;
 }
 
-h1.drink, h2.allergene {
+h1.drink,
+h2.allergene {
     margin: 0px;
     padding: 0px;
     font-size: 2.5rem;
-    color:#1C1E48
+    color: #1C1E48
 }
 
 h2.allergene {
@@ -174,7 +179,8 @@ h1.priceDrink {
 }
 
 
-.sidebar h2, .sidebar a {
+.sidebar h2,
+.sidebar a {
     padding: 10px 15px;
     text-decoration: none;
     font-size: 30px;
@@ -192,16 +198,16 @@ h1.priceDrink {
     display: flex;
     gap: 10px;
     justify-content: flex-start;
-    align-items: center; 
+    align-items: center;
     padding: 0 15px;
-    height: 40px; 
+    height: 40px;
 }
 
 
 
 .homebtn {
     color: white;
-    font-size: 24px; 
+    font-size: 24px;
     text-decoration: none;
     background: none;
     border: none;
@@ -231,7 +237,8 @@ h1.priceDrink {
 }
 
 
-u.menu, li.menu {
+u.menu,
+li.menu {
     color: white;
 }
 
@@ -245,7 +252,7 @@ button.openBar {
     border: 2px solid #1C1E48;
     border-radius: 20px;
     padding: 8px 12px;
-    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.1); 
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
 
@@ -282,79 +289,84 @@ div.disclaimer {
         margin-bottom: 50px;
     }
 
-    h1.title {
-        font-size: 2.5rem;
+    img.logo {
+        width: 60%;
+        max-width: 280px;
+        height: auto;
+        margin-top: 2rem;
     }
 
-    h1.titlePlate, h1.pricePlate, h1.priceDrink, h1.drink {
-        font-size: 2rem;
+    h1.title {
+        font-size: 2.8rem;
+    }
+
+    h1.titlePlate,
+    h1.pricePlate,
+    h1.priceDrink,
+    h1.drink {
+        font-size: 2.3rem;
     }
 
     p.ingredienti {
-        font-size: 1.2rem;
-        width: 90%;
+        font-size: 1.4rem;
+        /* width: 90%; */
     }
 
-    div.drink, div.allergene {
+    p.disclaimer {
+        font-size: 1.4rem;
+    }
+
+    div.drink,
+    div.allergene {
         width: 45%;
     }
 
+    .sidebar {
+        padding-top: 80px;
+    }
+
+    .sidebar a {
+        font-size: 2.4rem;
+        padding: 26px 38px;
+    }
+
+    .sidebar h2 {
+        font-size: 2.8rem;
+        margin: 0 0 40px 38px;
+    }
+
+    .sidebar .closebtn {
+        font-size: 3rem;
+        top: 20px;
+        right: 24px;
+        /* Anche qui, leggermente più a sinistra rispetto a prima */
+        position: absolute;
+    }
+
+    .homebtn {
+        font-size: 2.6rem;
+        padding: 20px 32px;
+    }
+
     button.openBar {
-        width: 80px;
-        height: 45px;
-        font-size: 18px;
+        width: 95vw;
+        height: 90px;
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: white;
+        background-color: #1C1E48;
+        border: none;
+        border-radius: 30px;
+        margin: 20px auto;
+        display: block;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        letter-spacing: 1px;
     }
 }
 
 
 @media screen and (max-width: 768px) {
-    /* div.container {
-        flex-direction: column;
-        align-items: stretch;
-    }
 
-    div.course {
-        width: 95%;
-        margin: 0 auto;
-    }
-
-    h1.title, h1.titlePlate, h1.pricePlate, h1.drink, h2.allergene {
-        font-size: 1.8rem;
-        text-align: center;
-    }
-
-    p.ingredienti {
-        font-size: 1rem;
-    }
-
-    div.plate, div.listDrink, div.listAllergeni {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    div.drink, div.allergene {
-        width: 90%;
-    }
-
-    .sidebar h2, .sidebar a {
-        font-size: 1.5rem;
-    }
-
-    button.openBar {
-        width: 100%;
-        font-size: 1.2rem;
-        margin: 10px auto;
-    }
-
-    h2.menu {
-        font-size: 1.5rem;
-    }
-
-    h2.menu:hover {
-        font-size: 1.6rem;
-    } */
-
-    /* Layout generale */
     div.container {
         flex-direction: column;
         align-items: center;
@@ -367,81 +379,121 @@ div.disclaimer {
     }
 
     /* LOGO più grande e proporzionato */
-    img.logo {
+    /* img.logo {
         width: 75%;
         max-width: 300px;
         height: auto;
         margin-top: 3rem;
+    } */
+
+    img.logo {
+        width: 80%;
+        max-width: 320px;
+        height: auto;
+        margin-top: 2.5rem;
     }
 
-    /* Titoli e testi */
-    h1.title {
+    /* h1.title {
         font-size: 2.5rem;
         text-align: center;
+    } */
+
+    h1.title {
+        font-size: 3rem;
     }
 
-    h1.titlePlate,
+    /* h1.titlePlate,
     h1.pricePlate,
     h1.priceDrink,
     h1.drink,
     h2.allergene {
         font-size: 2rem;
         text-align: center;
+    } */
+
+    h1.titlePlate,
+    h1.pricePlate,
+    h1.priceDrink,
+    h1.drink,
+    h2.allergene {
+        font-size: 2.4rem;
     }
 
-    p.ingredienti {
+    /* p.ingredienti {
         font-size: 1.3rem;
         width: 90%;
         text-align: center;
+    } */
+
+    p.ingredienti {
+        font-size: 1.6rem;
     }
 
-    /* Piatti e layout */
-    div.plate, div.listDrink, div.listAllergeni {
+    div.plate,
+    div.listDrink,
+    div.listAllergeni {
         flex-direction: column;
         align-items: center;
     }
 
-    div.drink, div.allergene {
+     p.disclaimer {
+        font-size: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    div.drink,
+    div.allergene {
         width: 90%;
     }
 
-    /* Disclaimer */
-    p.disclaimer {
+    /* p.disclaimer {
         font-size: 1.2rem;
         padding: 1rem;
-    }
+    } */
 
-    /* Sidebar potenziata */
+
     .sidebar {
-        width: 85% !important; /* override del JS */
         padding-top: 80px;
     }
 
-    .sidebar h2,
     .sidebar a {
-        font-size: 2rem;
-        padding: 15px 25px;
+        font-size: 2.2rem;
+        padding: 22px 32px;
+    }
+
+    .sidebar h2 {
+        font-size: 2.6rem;
+        margin: 0 0 35px 32px;
     }
 
     .sidebar .closebtn {
-        font-size: 2rem;
-    }
-
-    .sidebar-header {
-        height: 60px;
+        font-size: 2.8rem;
+        top: 20px;
+        right: 20px;
+        /* Spostato più a sinistra rispetto al bordo */
+        position: absolute;
     }
 
     .homebtn {
-        font-size: 2rem;
+        font-size: 2.4rem;
+        padding: 18px 28px;
     }
 
-    /* Menu button più evidente */
+
     button.openBar {
-        width: 90%;
-        height: 60px;
-        font-size: 1.5rem;
+
+        width: 95vw;
+        height: 90px;
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: white;
+        background-color: #1C1E48;
+        border: none;
+        border-radius: 30px;
         margin: 20px auto;
         display: block;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        letter-spacing: 1px;
     }
 
     h2.menu {
