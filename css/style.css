@@ -63,8 +63,15 @@ img.logo {
     width: 40%;
 }
 
-div.list{
-    width: 100%;
+
+
+div.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 div.plate {
@@ -126,6 +133,14 @@ div.listAllergeni {
     align-items: center;
 }
 
+div.listAllergeni {
+    width: 240px;
+
+    margin: 0.4rem 0;
+
+    box-sizing: border-box;
+}
+
 div.drink,
 div.allergene {
     width: 30%;
@@ -140,9 +155,11 @@ div.titleDrink {
 div.immagineAllergene {
     display: flex;
     align-items: center;
-    justify-content: center;
-    text-align: left; /* testo allineato a sinistra */
-    gap: 0.8rem; /* spazio tra icona e testo */
+    justify-content: flex-start;
+    text-align: left;
+    /* testo allineato a sinistra */
+    gap: 0.8rem;
+    /* spazio tra icona e testo */
 }
 
 h2.iconaAllergene {
@@ -153,7 +170,8 @@ h2.iconaAllergene {
 /* Il testo ora ha spazio costante per iniziare */
 h2.testoAllergene {
     flex: 1;
-    font-size: 2rem; /* o il valore che preferisci */
+    font-size: 2rem;
+    /* o il valore che preferisci */
 }
 
 div.priceDrink,
@@ -168,7 +186,7 @@ div.descrizioneAllergene {
 }
 
 h2.inMenu {
-    
+
     font-size: 1.7rem;
     margin-right: 13px;
 }
@@ -442,7 +460,7 @@ div.disclaimer {
     h1.titlePlate,
     h1.pricePlate,
     h1.priceDrink,
-    h1.drink{
+    h1.drink {
         font-size: 1.7rem;
         margin: 0.2rem 0;
     }
@@ -474,8 +492,7 @@ div.disclaimer {
         padding: 0.8rem;
     }
 
-    div.drink
-     {
+    div.drink {
         width: 92%;
     }
 
