@@ -93,7 +93,7 @@ div.pricePlate {
 }
 
 h1.titlePlate {
-    font-size: 2.5rem;
+    font-size: 1.7rem;
     color: #1C1E48
 }
 
@@ -108,7 +108,7 @@ h1.pricePlate {
 
 h1.titleCoperto {
     color: #1C1E48;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 h1.priceCoperto {
@@ -126,7 +126,6 @@ p.ingredienti {
     font-size: 1.5rem;
 }
 
-div.listDrink,
 div.listAllergeni {
     display: flex;
     justify-content: center;
@@ -141,15 +140,10 @@ div.listAllergeni {
     box-sizing: border-box;
 }
 
-div.drink,
+
 div.allergene {
     width: 30%;
     margin-top: 15px;
-}
-
-div.titleDrink {
-
-    float: left
 }
 
 div.immagineAllergene {
@@ -174,7 +168,6 @@ h2.testoAllergene {
     /* o il valore che preferisci */
 }
 
-div.priceDrink,
 div.descrizioneAllergene {
 
     float: right
@@ -187,11 +180,10 @@ div.descrizioneAllergene {
 
 h2.inMenu {
 
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     margin-right: 13px;
 }
 
-h1.drink,
 h2.allergene {
     margin: 0px;
     padding: 0px;
@@ -201,16 +193,8 @@ h2.allergene {
 
 h2.allergene {
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-left: 0.4rem;
-}
-
-
-
-h1.priceDrink {
-    margin: 0px;
-    padding: 0px;
-    color: #4C4E78;
 }
 
 h2.showingAllergene {
@@ -350,7 +334,7 @@ div.disclaimer {
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1082px) {
     div.course {
         width: 80%;
         padding-bottom: 50px;
@@ -373,9 +357,7 @@ div.disclaimer {
     }
 
     h1.titlePlate,
-    h1.pricePlate,
-    h1.priceDrink,
-    h1.drink {
+    h1.pricePlate{
         font-size: 1.5rem;
     }
 
@@ -390,10 +372,6 @@ div.disclaimer {
 
     p.disclaimer {
         font-size: 1.4rem;
-    }
-
-    div.drink {
-        width: 45%;
     }
 
 
@@ -468,15 +446,13 @@ div.disclaimer {
     }
 
     h1.titlePlate,
-    h1.pricePlate,
-    h1.priceDrink,
-    h1.drink {
-        font-size: 1rem;
+    h1.pricePlate{
+        font-size: 0.8rem;
         margin: 0.2rem 0;
     }
 
     h2.allergene {
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin-left: 0.5rem;
     }
 
@@ -485,12 +461,11 @@ div.disclaimer {
     }
 
     p.ingredienti {
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin: 0.2rem 0 0.6rem 0;
     }
 
-    div.plate,
-    div.listDrink {
+    div.plate {
         flex-direction: column;
         align-items: center;
         gap: 0.3rem;
@@ -506,9 +481,6 @@ div.disclaimer {
         font-size: 1.5rem;
     }
 
-    div.drink {
-        width: 92%;
-    }
 
     .sidebar {
         padding-top: 50px;
