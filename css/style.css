@@ -205,13 +205,7 @@ h2.allergene {
     margin-left: 0.4rem;
 }
 
-h2.inMenu {
-    color: #D0C0AC;
-}
 
-h2.iconaAllergene {
-    color: #D0C0AC
-}
 
 h1.priceDrink {
     margin: 0px;
@@ -219,6 +213,22 @@ h1.priceDrink {
     color: #4C4E78;
 }
 
+h2.showingAllergene {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-size: 2rem;
+    margin-left: 0.4rem;
+    color: #1C1E48
+}
+
+h2.inMenu {
+    color: #D0C0AC;
+}
+
+h2.iconaAllergene {
+    color: #D0C0AC
+}
 
 
 .sidebar {
@@ -366,16 +376,16 @@ div.disclaimer {
     h1.pricePlate,
     h1.priceDrink,
     h1.drink {
-        font-size: 2.3rem;
+        font-size: 1.5rem;
     }
 
     h2.allergene {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         margin-left: 0.5rem;
     }
 
     p.ingredienti {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
 
     p.disclaimer {
@@ -490,6 +500,10 @@ div.disclaimer {
     p.disclaimer {
         font-size: 1.3rem;
         padding: 0.8rem;
+    }
+
+    h2.showingAllergene {
+        font-size: 1.5rem;
     }
 
     div.drink {
