@@ -1,4 +1,4 @@
-.listDrinks { 
+ .listDrinks { 
   width: fit-content;
   margin: 40px auto;
   font-family: sans-serif;
@@ -17,9 +17,9 @@
 }
 
 .header {
-  border-bottom: 2px solid #ccc;
-  padding-bottom: 12px;
-  margin-bottom: 14px;
+  /* border-bottom: 2px solid #ccc; */
+  padding-bottom: 30px;
+  margin-bottom: 20px;
 
   display: inline-flex; 
   width: fit-content;
