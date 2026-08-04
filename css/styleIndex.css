@@ -42,6 +42,13 @@ div.toCenter {
 
 }
 
+h1.date {
+    font-size: 2rem;
+    color: #1C1E48;
+    margin: 0.5rem;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
 div.menu.toCenter {
     display: flex;
     flex-wrap: wrap;
@@ -119,6 +126,11 @@ h2.menu:hover {
         padding: 1rem;
     }
 
+    h1.date {
+        font-size: 1.8rem;
+        margin: 0.3rem
+    }
+
     h2.menu {
         font-size: 1.8rem;
         padding: 0.8rem 1.5rem;
@@ -162,6 +174,11 @@ h2.menu:hover {
     h1.title {
         font-size: 2.2rem;
         padding: 0.5rem 1rem;
+    }
+
+    h1.date {
+        font-size: 1.4rem;
+        margin: 0.1rem
     }
 
     h2.menu {
